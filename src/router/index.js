@@ -6,9 +6,9 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/ce',
-    name: 'Ce',
-    component: () => import( '@/views/yummy2/ce.vue')
+    path: '/home',
+    name: 'Home',
+    component: () => import( '@/views/yummy2/home.vue')
   },
   {
     path: '/',
