@@ -6,6 +6,11 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/app',
+    name: 'App',
+    component: () => import( '@/views/yummy2/app.vue')
+  },
+  {
     path: '/home',
     name: 'Home',
     component: () => import( '@/views/yummy2/home.vue')

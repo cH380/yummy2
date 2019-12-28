@@ -1,10 +1,7 @@
 <template>
   <div>
-    首页
-    <!-- 底部导航栏 -->
-    
-
-    <van-tabbar route>
+      APP
+      <van-tabbar route>
       <van-tabbar-item replace to="/home" icon="home-o">标签</van-tabbar-item>
       <van-tabbar-item replace to="/app" icon="apps-o">标签</van-tabbar-item>
     </van-tabbar>
@@ -13,11 +10,10 @@
 
 <script>
 export default {
-  data() {
-    return {};
-  }
-};
+
+}
 </script>
 
 <style>
+
 </style>
