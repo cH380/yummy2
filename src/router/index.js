@@ -2,18 +2,29 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/details',
+    name: 'Details',
+    component: () => import( '@/views/yummy2/other/details')
+  },
+  {
+    path: '/movie',
+    name: 'Movie',
+    component: () => import( '@/views/yummy2/other/movie')
+  },
+  {
     path: '/app',
     name: 'App',
-    component: () => import( '@/views/yummy2/app.vue')
+    component: () => import( '@/views/yummy2/app')
   },
   {
     path: '/home',
     name: 'Home',
-    component: () => import( '@/views/yummy2/home.vue')
+    component: () => import( '@/views/yummy2/home')
   },
   {
     path: '/',
